@@ -3,7 +3,7 @@
 Welcome to the **Protein ingredients** repository! 🚀  
 This project is designed to [show some igredients for the 3 main protien Meat,Fish,Chicken ].  
 
-![alt text](https://ibb.co/fvCLs3g)
+https://ibb.co/fvCLs3g
 
 ## Installation
 
