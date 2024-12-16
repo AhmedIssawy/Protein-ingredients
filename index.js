@@ -19,13 +19,13 @@ app.get("/", (req, res) => {
 app.post("/recipe", (req, res) => {
   switch (req.body.choice) {
     case "chicken":
-      obj = JSON.parse(recipeJSON)[0];
+      obj = JSON.parse(recipeJSON).find((recipe) => recipe.name === "Chicken Taco"); // taco recipe
       break;
     case "beef":
-      obj = JSON.parse(recipeJSON)[1];
+      obj = JSON.parse(recipeJSON).find((recipe) => recipe.name === "Beef Taco");
       break;
     case "fish":
-      obj = JSON.parse(recipeJSON)[2];
+      obj = JSON.parse(recipeJSON).find((recipe) => recipe.name === "Fish Taco");
       break;
     
       default:
